@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bachillerato en Computación</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0b1f3a; /* Azul marino */
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav {
+      background-color: #102846; /* Azul marino más claro */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #1c3c66;
+    }
+
+    .main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+   .main img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: block;
+    }
+
+    .main p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    footer {
+      background-color: #0b1f3a;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      .main img {
+        width: 90%;
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li a {
+        text-align: center;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bachillerato en Ciencias y Letras con Orientación en Computación</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="pensum.html">Pensum</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="main">
+    <img src="f54.png" alt="Computación" />
+    <p>
+      Esta carrera está diseñada para formar estudiantes en el campo de la informática,
+      combinando conocimientos generales con habilidades técnicas. Los estudiantes
+      aprenden sobre programación, redes, bases de datos y aplicaciones informáticas,
+      además de fortalecer su pensamiento lógico y resolución de problemas. Ideal para
+      quienes desean continuar estudios universitarios o insertarse en el mercado laboral.
+    </p>
+  </div>
+
+  <footer id="contacto">
+    <p><strong>Colegio Camino Verde</strong></p>
+    <p>Dirección: Km 1.2 Altos de Bárcenas 1, Carretera Bárcenas, Villa Nueva, Guatemala</p>
+    <p>Tel: (502) 6629-3874</p>
+    <p>Correo: colegiocaminoverde@gmail.com</p>
+    <p>&copy; 2025 Colegio Camino Verde. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
